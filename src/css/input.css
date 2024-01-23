@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.blog-paragraph {
-    @apply text-xl mb-5 leading-relaxed text-main dark:text-drktext
+.apply-blog-paragraph {
+    @apply text-xl mb-5 leading-relaxed text-main dark:text-drktext sm:text-lg
+}
+.apply-image-slider {
+    @apply w-[832px] rounded-2xl transition duration-300 ease-in-out hover:scale-105 sm:mt-3
+}
+.apply-portfolio-square {
+    @apply transition duration-300 ease-in-out hover:scale-105
 }
